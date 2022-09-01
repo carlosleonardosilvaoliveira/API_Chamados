@@ -36,21 +36,20 @@ class NomedaClasseModel
         */
 
         //Exemplo de return para o insert:
-        /*
+        
         $this->id = (new Database('NOME DA TABELA'))->insert([
             'NOME DA COLUNA DO BANCO' => $this->NOME DA VARIAVEL NO ESCOPO
         ]);
 
         //E sempre retornando um boleano
         return true;
-        */ 
+        
 
         //Exemplo de return para o update:
-        /*
         return (new Database('NOME DA TABELA'))->update("id = '{$this->id}'",[
             'NOME DA COLUNA DO BANCO' => $this->NOME DA VARIAVEL NO ESCOPO
         ]);
-        */
+        
     }
 
 }
